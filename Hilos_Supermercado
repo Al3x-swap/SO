@@ -1,0 +1,20 @@
+//Ejercicio de hilos sobre un supermercado 
+ 
+ #include <stdio.h>                            // Librería de entrada y salida estándar
+ #include <pthread.h>                          //Libreria de hilos 
+ //Primer hilo
+ void* funcion_Hilo_Inventario(void* arg) {
+            for (int i = 1; i <= 100; ++i) {               // Ciclo for inicializado en 1 con condición de paro cuando el contador es mayor a 100
+                printf("Hilo de productos del inventario: El numero de producto es %d\n", i);      // Impresión en pantalla de mensajes del hilo de inventario
+                
+ void* funcion_HiloAcomodar(void* arg) {
+            for (int i = 1; i <= 100; ++i) {               // Ciclo for inicializado en 1 con condición de paro cuando el contador es mayor a 100
+                printf("Hilo de acomodar productos: El empleado acomodo el prdoucto %d\n", i);      // Impresión en pantalla de mensajes del hilo de acomodar
+                
+     int main() {
+     
+            // Declaración de identificadores de hilos
+            pthread_t Hilo_Inventario ;                              // Se declaran estructuras de datos con pthread_t
+    
+            // Creación de hilos
+            pthread_create(&Hilo_Inventario, NULL);   // Se crea proceso, el cual hilo1 ejecuta con la rutina funcionHilo1
