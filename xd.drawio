@@ -1,9 +1,225 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 OPR/114.0.0.0" version="24.8.4">
   <diagram name="Página-1" id="pyFA8Tmh1pCsYIDLbJZS">
-    <mxGraphModel>
+    <mxGraphModel dx="4190" dy="1953" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <UserObject label="Estructura de Sistema de Archivos" placeholders="1" id="P7m57hnNrAGmOv4Gt1nb-1">
+          <mxCell style="label;whiteSpace=wrap;html=1;rounded=0;glass=0;treeMoving=1;treeFolding=1;" vertex="1" parent="1">
+            <mxGeometry x="530" y="40" width="180" height="70" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="P7m57hnNrAGmOv4Gt1nb-2" value="" style="endArrow=blockThin;endFill=1;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="P7m57hnNrAGmOv4Gt1nb-1" target="P7m57hnNrAGmOv4Gt1nb-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="515" y="100.00000000000011" as="sourcePoint" />
+            <mxPoint x="-370" y="260.0000000000001" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="140" y="75" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P7m57hnNrAGmOv4Gt1nb-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="P7m57hnNrAGmOv4Gt1nb-4" target="P7m57hnNrAGmOv4Gt1nb-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-72" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P7m57hnNrAGmOv4Gt1nb-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="P7m57hnNrAGmOv4Gt1nb-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-140" y="390" as="sourcePoint" />
+            <mxPoint y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Archivos: &lt;span style=&quot;font-weight: normal;&quot;&gt;Se centra en como el SO representa y gestiona los archivos en el disco&lt;/span&gt;&amp;nbsp;" placeholders="1" id="P7m57hnNrAGmOv4Gt1nb-4">
+          <mxCell style="label;whiteSpace=wrap;html=1;rounded=0;glass=0;treeFolding=1;treeMoving=1;" vertex="1" parent="1">
+            <mxGeometry x="-365" y="270" width="180" height="90" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="P7m57hnNrAGmOv4Gt1nb-5" value="" style="endArrow=blockThin;endFill=1;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=0;" edge="1" parent="1" source="P7m57hnNrAGmOv4Gt1nb-1" target="P7m57hnNrAGmOv4Gt1nb-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P7m57hnNrAGmOv4Gt1nb-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="P7m57hnNrAGmOv4Gt1nb-6" target="P7m57hnNrAGmOv4Gt1nb-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P7m57hnNrAGmOv4Gt1nb-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="P7m57hnNrAGmOv4Gt1nb-6" target="P7m57hnNrAGmOv4Gt1nb-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P7m57hnNrAGmOv4Gt1nb-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;" edge="1" parent="1" source="P7m57hnNrAGmOv4Gt1nb-6" target="P7m57hnNrAGmOv4Gt1nb-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Directorios: &lt;span style=&quot;font-weight: normal;&quot;&gt;Proporcionan una estructura jerárquica para organizar los archivos en carpetas y subcarpetas&amp;nbsp;&lt;/span&gt;" placeholders="1" id="P7m57hnNrAGmOv4Gt1nb-6">
+          <mxCell style="label;whiteSpace=wrap;html=1;rounded=0;glass=0;treeFolding=1;treeMoving=1;" vertex="1" parent="1">
+            <mxGeometry x="530" y="260" width="180" height="100" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="P7m57hnNrAGmOv4Gt1nb-7" value="" style="endArrow=blockThin;endFill=1;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=0;" edge="1" parent="1" source="P7m57hnNrAGmOv4Gt1nb-1" target="P7m57hnNrAGmOv4Gt1nb-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="880" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P7m57hnNrAGmOv4Gt1nb-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;" edge="1" parent="1" source="P7m57hnNrAGmOv4Gt1nb-8" target="P7m57hnNrAGmOv4Gt1nb-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P7m57hnNrAGmOv4Gt1nb-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;" edge="1" parent="1" source="P7m57hnNrAGmOv4Gt1nb-8" target="P7m57hnNrAGmOv4Gt1nb-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P7m57hnNrAGmOv4Gt1nb-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;" edge="1" parent="1" source="P7m57hnNrAGmOv4Gt1nb-8" target="P7m57hnNrAGmOv4Gt1nb-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Archivos Compartidos: &lt;span style=&quot;font-weight: normal;&quot;&gt;Diferentes usuarios y aplicaciones pueden necesitar acceder al mismo archivo simultáneamente&lt;/span&gt;" placeholders="1" id="P7m57hnNrAGmOv4Gt1nb-8">
+          <mxCell style="label;whiteSpace=wrap;html=1;rounded=0;glass=0;" vertex="1" parent="1">
+            <mxGeometry x="1310" y="270" width="180" height="120" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="P7m57hnNrAGmOv4Gt1nb-9" value="" style="endArrow=blockThin;endFill=1;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="P7m57hnNrAGmOv4Gt1nb-4" target="P7m57hnNrAGmOv4Gt1nb-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-62" y="330" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="-430" y="315" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P7m57hnNrAGmOv4Gt1nb-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;" edge="1" parent="1" source="P7m57hnNrAGmOv4Gt1nb-10" target="P7m57hnNrAGmOv4Gt1nb-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Asignación Contigua: &lt;span style=&quot;font-weight: normal;&quot;&gt;Se almacenan en bloques consecutivos en el disco, dando un acceso muy rápido, no saltando en bloques dispersos&lt;/span&gt;" placeholders="1" id="P7m57hnNrAGmOv4Gt1nb-10">
+          <mxCell style="label;whiteSpace=wrap;html=1;rounded=0;glass=0;treeFolding=1;treeMoving=1;" vertex="1" parent="1">
+            <mxGeometry x="-650" y="535" width="210" height="90" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="P7m57hnNrAGmOv4Gt1nb-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;" edge="1" parent="1" source="P7m57hnNrAGmOv4Gt1nb-11" target="P7m57hnNrAGmOv4Gt1nb-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Asignación Enlazada: &lt;span style=&quot;font-weight: 400;&quot;&gt;Los bloques de un archivo están enlazados por punteros, permitiendo que los bloques no necesiten estar contiguos&lt;/span&gt;&amp;nbsp;" placeholders="1" id="P7m57hnNrAGmOv4Gt1nb-11">
+          <mxCell style="label;whiteSpace=wrap;html=1;rounded=0;glass=0;treeFolding=1;treeMoving=1;" vertex="1" parent="1">
+            <mxGeometry x="-380" y="535" width="210" height="90" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="P7m57hnNrAGmOv4Gt1nb-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;" edge="1" parent="1" source="P7m57hnNrAGmOv4Gt1nb-12" target="P7m57hnNrAGmOv4Gt1nb-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Asignación indexada: &lt;span style=&quot;font-weight: 400;&quot;&gt;Los archivos modernos usan la Asignación Indexada, en la que un bloque especial contiene los punteros a los bloques de datos del archivo&lt;/span&gt;" placeholders="1" id="P7m57hnNrAGmOv4Gt1nb-12">
+          <mxCell style="label;whiteSpace=wrap;html=1;rounded=0;glass=0;treeFolding=1;treeMoving=1;" vertex="1" parent="1">
+            <mxGeometry x="-115" y="535" width="220" height="90" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="P7m57hnNrAGmOv4Gt1nb-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;" edge="1" parent="1" source="P7m57hnNrAGmOv4Gt1nb-16" target="P7m57hnNrAGmOv4Gt1nb-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Directorios Simples: &lt;span style=&quot;font-weight: normal;&quot;&gt;Todos los archivos y directorios están al mismo nivel, significando que no hay estructura jerárquica.&amp;nbsp;&lt;/span&gt;" placeholders="1" id="P7m57hnNrAGmOv4Gt1nb-16">
+          <mxCell style="label;whiteSpace=wrap;html=1;rounded=0;glass=0;treeFolding=1;treeMoving=1;" vertex="1" parent="1">
+            <mxGeometry x="270" y="350" width="210" height="90" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="P7m57hnNrAGmOv4Gt1nb-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;" edge="1" parent="1" source="P7m57hnNrAGmOv4Gt1nb-17" target="P7m57hnNrAGmOv4Gt1nb-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Directorios Jerárquicos: &lt;span style=&quot;font-weight: normal;&quot;&gt;Estructura jerárquica, donde los archivos se organizan en carpetas y subcarpetas&lt;/span&gt;" placeholders="1" id="P7m57hnNrAGmOv4Gt1nb-17">
+          <mxCell style="label;whiteSpace=wrap;html=1;rounded=0;glass=0;treeFolding=1;treeMoving=1;" vertex="1" parent="1">
+            <mxGeometry x="530" y="410" width="180" height="100" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="P7m57hnNrAGmOv4Gt1nb-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;" edge="1" parent="1" source="P7m57hnNrAGmOv4Gt1nb-19" target="P7m57hnNrAGmOv4Gt1nb-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Directorios Hash: &lt;span style=&quot;font-weight: normal;&quot;&gt;Algunos sistemas de archivo usan tablas hash para almacenar entradas de directorios, mejorando el rendimiento en directorios grandes y dando un acceso más fácil&lt;/span&gt;" placeholders="1" id="P7m57hnNrAGmOv4Gt1nb-19">
+          <mxCell style="label;whiteSpace=wrap;html=1;rounded=0;glass=0;treeFolding=1;treeMoving=1;" vertex="1" parent="1">
+            <mxGeometry x="770" y="320" width="220" height="120" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="P7m57hnNrAGmOv4Gt1nb-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;" edge="1" parent="1" source="P7m57hnNrAGmOv4Gt1nb-25" target="P7m57hnNrAGmOv4Gt1nb-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Hard Links: &lt;span style=&quot;font-weight: normal;&quot;&gt;Es una entrada en el sistema de archivos apuntando al mismo inodo que otro archivo&lt;/span&gt;" placeholders="1" id="P7m57hnNrAGmOv4Gt1nb-25">
+          <mxCell style="label;whiteSpace=wrap;html=1;rounded=0;glass=0;strokeColor=default;align=left;verticalAlign=middle;spacingLeft=52;spacing=2;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;fillColor=default;" vertex="1" parent="1">
+            <mxGeometry x="1070" y="472.5" width="180" height="85" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="P7m57hnNrAGmOv4Gt1nb-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;" edge="1" parent="1" source="P7m57hnNrAGmOv4Gt1nb-27" target="P7m57hnNrAGmOv4Gt1nb-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Soft Links: &lt;span style=&quot;font-weight: 400;&quot;&gt;Son archivos que contienen un puntero a otro archivo o directorio&lt;/span&gt;" placeholders="1" id="P7m57hnNrAGmOv4Gt1nb-27">
+          <mxCell style="label;whiteSpace=wrap;html=1;rounded=0;glass=0;" vertex="1" parent="1">
+            <mxGeometry x="1310" y="480" width="180" height="70" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="P7m57hnNrAGmOv4Gt1nb-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;" edge="1" parent="1" source="P7m57hnNrAGmOv4Gt1nb-29" target="P7m57hnNrAGmOv4Gt1nb-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Control de acceso Concurrente: &lt;span style=&quot;font-weight: normal;&quot;&gt;Cuando varios usuario o procesos acceden simultáneamente a un archivo compartido, el sistema de archivos debe implementar mecanismos para evitar conflictos y garantizar la coherencia de los datos&amp;nbsp;&lt;/span&gt;" placeholders="1" id="P7m57hnNrAGmOv4Gt1nb-29">
+          <mxCell style="label;whiteSpace=wrap;html=1;rounded=0;glass=0;strokeColor=default;align=left;verticalAlign=middle;spacingLeft=52;spacing=2;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;fillColor=default;" vertex="1" parent="1">
+            <mxGeometry x="1654" y="262.5" width="230" height="135" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="P7m57hnNrAGmOv4Gt1nb-43" value="&lt;div&gt;Ejemplo&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Si un archivo de 1000 bytes necesita ser almacenado y cada bloque de disco tiene 256 bytes, se necesitan 4 bloques contiguos para guardar archivo. Si más tarde se intenta agregar otro archivo de 2000 bytes, pero no hay espacio contiguo de esa magnitud, el archivo no podrá almacenarse en esa ubicación, incluso si hay espacio suficiente en otras partes del disco.&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;glass=0;strokeColor=default;align=left;verticalAlign=middle;spacingLeft=52;spacing=2;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-710" y="700" width="290" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="P7m57hnNrAGmOv4Gt1nb-46" value="&lt;div&gt;Ejemplo&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Si un archivo está almacenado en los bloques 10, 25, y 100, el sistema almacena un puntero en el bloque 10 que apunta al bloque 25, y otro puntero en el bloque 25 que apunta al bloque 100. Para acceder a todo el archivo, el sistema debe seguir estos enlaces.&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;glass=0;strokeColor=default;align=left;verticalAlign=middle;spacingLeft=52;spacing=2;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-395" y="730" width="240" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="P7m57hnNrAGmOv4Gt1nb-48" value="&lt;div&gt;Ejemplo&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Supongamos que un archivo está almacenado en los bloques 5, 30, 45, y 70. El sistema de archivos crea un inodo que contiene punteros a estos bloques, y el sistema operativo accede directamente a los bloques a través del inodo.&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;glass=0;strokeColor=default;align=left;verticalAlign=middle;spacingLeft=52;spacing=2;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-125" y="730" width="230" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="P7m57hnNrAGmOv4Gt1nb-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;" edge="1" parent="1" source="P7m57hnNrAGmOv4Gt1nb-52" target="P7m57hnNrAGmOv4Gt1nb-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P7m57hnNrAGmOv4Gt1nb-52" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;Un ejemplo en un sistema con directorios planos, todos los archivos del sistema podrían estar en una sola carpeta:&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;glass=0;strokeColor=default;align=left;verticalAlign=middle;spacingLeft=52;spacing=2;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="305" y="585" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="P7m57hnNrAGmOv4Gt1nb-54" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://vigs950813.github.io/RDD_SO_U4/images/figura2.png;clipPath=inset(7.87% 17% 6.48% 15.67%);" vertex="1" parent="1">
+          <mxGeometry x="170.00000000000003" y="840" width="229.3" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="P7m57hnNrAGmOv4Gt1nb-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;" edge="1" parent="1" source="P7m57hnNrAGmOv4Gt1nb-57" target="P7m57hnNrAGmOv4Gt1nb-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P7m57hnNrAGmOv4Gt1nb-57" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;Por ejemplo, una estructura jerárquica&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;glass=0;strokeColor=default;align=left;verticalAlign=middle;spacingLeft=52;spacing=2;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="565" y="570" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="P7m57hnNrAGmOv4Gt1nb-58" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://vigs950813.github.io/RDD_SO_U4/images/figura3.png;" vertex="1" parent="1">
+          <mxGeometry x="480" y="770" width="229.27" height="212" as="geometry" />
+        </mxCell>
+        <mxCell id="P7m57hnNrAGmOv4Gt1nb-62" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.redeszone.net/app/uploads-redeszone.net/2020/02/integridad-archivos-hash.png;" vertex="1" parent="1">
+          <mxGeometry x="737.03" y="530" width="285.93" height="232" as="geometry" />
+        </mxCell>
+        <mxCell id="P7m57hnNrAGmOv4Gt1nb-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;" edge="1" parent="1" source="P7m57hnNrAGmOv4Gt1nb-64" target="P7m57hnNrAGmOv4Gt1nb-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P7m57hnNrAGmOv4Gt1nb-64" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;A continuación, se presenta un ejemplo ilustrativo de enlace duro en Linux usando el comando ln, ambos archivos comparten el mismo contenido&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;glass=0;strokeColor=default;align=left;verticalAlign=middle;spacingLeft=52;spacing=2;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1055" y="630" width="210" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="P7m57hnNrAGmOv4Gt1nb-66" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://vigs950813.github.io/RDD_SO_U4/images/codigo4.png;" vertex="1" parent="1">
+          <mxGeometry x="750" y="930" width="617" height="146" as="geometry" />
+        </mxCell>
+        <mxCell id="P7m57hnNrAGmOv4Gt1nb-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;" edge="1" parent="1" source="P7m57hnNrAGmOv4Gt1nb-69" target="P7m57hnNrAGmOv4Gt1nb-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P7m57hnNrAGmOv4Gt1nb-69" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;A conitnuación, se presenta un ejemplo de uso del comando ln -s.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;glass=0;strokeColor=default;align=left;verticalAlign=middle;spacingLeft=52;spacing=2;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="625" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="P7m57hnNrAGmOv4Gt1nb-72" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://vigs950813.github.io/RDD_SO_U4/images/codigo5.png;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="770" width="645" height="142" as="geometry" />
+        </mxCell>
+        <mxCell id="P7m57hnNrAGmOv4Gt1nb-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;" edge="1" parent="1" source="P7m57hnNrAGmOv4Gt1nb-74" target="P7m57hnNrAGmOv4Gt1nb-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P7m57hnNrAGmOv4Gt1nb-74" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;Ejemplo de bloqueo de archivos.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;glass=0;strokeColor=default;align=left;verticalAlign=middle;spacingLeft=52;spacing=2;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1717" y="460" width="104" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="P7m57hnNrAGmOv4Gt1nb-76" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://vigs950813.github.io/RDD_SO_U4/images/codigo6.png;" vertex="1" parent="1">
+          <mxGeometry x="1930" y="366.64" width="350" height="296.73" as="geometry" />
+        </mxCell>
+        <mxCell id="P7m57hnNrAGmOv4Gt1nb-78" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-weight: normal; white-space-collapse: preserve; background-color: initial;&quot;&gt;Los archivos se agrupan en carpetas relacionadas, lo que facilita su gestión y búsqueda.&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1050" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="P7m57hnNrAGmOv4Gt1nb-79" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;El archivo1.txt y enlace_duro.txt son dos nombres que apuntan al mismo contenido en el disco.&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="918.5" y="1080" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P7m57hnNrAGmOv4Gt1nb-80" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;Dado que enlace_simbolico.txt apunta a archivo1.txt. Si se elimina archivo1.txt, el enlace simbólico quedará roto.&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1462.5" y="920" width="320" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
