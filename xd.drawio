@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 OPR/114.0.0.0" version="24.8.4">
   <diagram name="Página-1" id="pyFA8Tmh1pCsYIDLbJZS">
-    <mxGraphModel dx="4190" dy="1953" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2172" dy="781" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -219,6 +219,9 @@
         </mxCell>
         <mxCell id="P7m57hnNrAGmOv4Gt1nb-80" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;Dado que enlace_simbolico.txt apunta a archivo1.txt. Si se elimina archivo1.txt, el enlace simbólico quedará roto.&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;" vertex="1" parent="1">
           <mxGeometry x="1462.5" y="920" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P7m57hnNrAGmOv4Gt1nb-83" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Chilaquiles con pollo:&lt;/font&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Fuentes Reyes Jayri Arath&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;García Pinzón Joshua&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Jacinto Tovar Diego&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Rojas Tapia Italuu&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;glass=0;strokeColor=default;align=left;verticalAlign=middle;spacingLeft=52;spacing=2;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-790" y="40" width="260" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
